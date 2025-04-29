@@ -1,0 +1,46 @@
+{
+  "lblLogin": "Log in",
+  "lblSignUp": "Sign up",
+  "lblEmailRequire": "Email is required",
+  "lblValidEmail": "Enter a valid email address",
+  "lblRequirePassword": "Password is required",
+  "lblPasswordLength": "Password must be at least 6 characters",
+  "lblConfirmPassword": "Please confirm your password",
+  "lblPasswordDontMatch": "Passwords do not match",
+  "lblLoginFailed": "Login failed",
+  "lblEnterPassword": "Enter your email and password to create \n an account. Confirmation mail will be sent to \n your email.",
+  "lblUnableSignup": "Unable to sign up",
+  "hintYourEmail": "email@domain.com",
+  "lblNotYetRegistered": "Not yet registered? Sign up with your email",
+  "lblAlreadyRegistered": "Already registered? Login to your account",
+  "btnCreateAccount": "Create account",
+  "btnLogin": "Log In",
+  "appName": "ChatApp",
+  "hintYourPassword": "Password",
+  "hintYourFirstname": "First name",
+  "hintYourLastname": "Last name",
+  "hintRepeatPassword": "Repeat password",
+  "nullResponseMessage": "Response is null",
+  "validationErrorMessage": "Validation error",
+  "permissionErrorMessage": "Permission denied",
+  "resourceErrorMessage": "Resource was not found or does not exist",
+  "requestAccessErrorMessage": "No Access to perform the request",
+  "invalidRequestErrorMessage": "Invalid Request",
+  "serverSideErrorMessage": "Request failed due to server-side",
+  "serverCommunicationErrorMessage": "Error while communicating to the server",
+  "incorrectCredentialsErrorMessage": "Incorrect credentials",
+  "conflictErrorMessage": "Conflict error",
+  "unknownErrorMessage": "Unknown Error",
+  "responseFailedErrorMessage": "Response failed with status code {statusCode}: {message}",
+  "@responseFailedErrorMessage": {
+    "description": "Response failed message with status code and actual message",
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      },
+      "message": {
+        "type": "String"
+      }
+    }
+  }
+}
